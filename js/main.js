@@ -9,6 +9,6 @@ const max = parseInt(
 );
 
 //  genero un numero casuale e nella formula inserico il mio max e il min
-const number = Math.floor(Math.random() * max) + min;
+const number = Math.floor(Math.random() * (max - min)) + min;
 
 console.log(number);
