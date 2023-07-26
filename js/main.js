@@ -1,4 +1,4 @@
-// // ! ESERCIZIO 1
+// ! ESERCIZIO 1
 // //  chiedo un numero min
 // const min = parseInt(
 //   prompt("scrivi un numero che sia il tuo intervallo più basso")
@@ -14,7 +14,7 @@
 
 // console.log(number);
 
-// // ! ESERCIZIO 2
+// ! ESERCIZIO 2
 // //  chiedo la prima parola
 // const wordSt = prompt("inserisci una parola");
 
@@ -30,7 +30,7 @@
 //   console.log(wordNd);
 // }
 
-// // ! ESERCIZIO 3
+// ! ESERCIZIO 3
 // // CREO UN ARRAY VUOTO
 // const myArr = [];
 
@@ -46,22 +46,35 @@
 // console.log(sum);
 
 // ! ESERCIZIO 4
-// CREO UN ARRAY VUOTO
-const myArr = [];
+// // CREO UN ARRAY VUOTO
+// const myArr = [];
 
-// CREO UN CONTATORE SOMMA
-let sum = 0;
+// // CREO UN CONTATORE SOMMA
+// let sum = 0;
 
-while (sum < 50) {
-  let numberUser = parseInt(prompt("dammi un numero"));
-  sum += numberUser;
-  myArr.push(sum);
+// while (sum < 50) {
+//   let numberUser = parseInt(prompt("dammi un numero"));
+//   sum += numberUser;
+//   myArr.push(sum);
+// }
+
+// console.log(sum);
+
+// console.table(myArr);
+
+// let media = (sum / myArr.length).toFixed(2);
+
+// console.log(media);
+
+// ! ESERCIZIO 5
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
+for (let i = 0; i < numbers.length - 2; i++) {
+  if (numbers % 2 != 0);
+  {
+    evenNumbers.push(numbers[i]);
+  }
 }
 
-console.log(sum);
-
-console.table(myArr);
-
-let media = (sum / myArr.length).toFixed(2);
-
-console.log(media);
+console.log(evenNumbers);
