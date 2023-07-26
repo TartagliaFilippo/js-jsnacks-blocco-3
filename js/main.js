@@ -30,7 +30,22 @@
 //   console.log(wordNd);
 // }
 
-// ! ESERCIZIO 3
+// // ! ESERCIZIO 3
+// // CREO UN ARRAY VUOTO
+// const myArr = [];
+
+// // CREO UN CONTATORE SOMMA
+// let sum = 0;
+
+// while (sum < 50) {
+//   let numberUser = parseInt(prompt("dammi un numero"));
+//   sum += numberUser;
+//   myArr.push(sum);
+// }
+
+// console.log(sum);
+
+// ! ESERCIZIO 4
 // CREO UN ARRAY VUOTO
 const myArr = [];
 
@@ -44,3 +59,9 @@ while (sum < 50) {
 }
 
 console.log(sum);
+
+console.table(myArr);
+
+let media = (sum / myArr.length).toFixed(2);
+
+console.log(media);
